@@ -1,0 +1,60 @@
+
+
++---------------------------------------+
+|                Mall                   |
++---------------------------------------+
+| - id: String                          |
+| - mallName: String                    |
+| - country: String                     |
+| - city: String                        |
+| - yearOpened: Integer                 |
+| - gla_sqft: Integer                   |
+| - gla_sqmt: Integer                   |
+| - shops: Integer                      |
++---------------------------------------+
+| + Mall(id: String, mallName: String,   |
+|        country: String, city: String,  |
+|        yearOpened: Integer,           |
+|        gla_sqft: Integer,             |
+|        gla_sqmt: Integer,             |
+|        shops: Integer)                |
+| + getId(): String                     |
+| + getMallName(): String               |
+| + getCountry(): String                |
+| + getCity(): String                   |
+| + getYearOpened(): Integer            |
+| + getGlaSqft(): Integer               |
+| + getGlaSqmt(): Integer               |
+| + getShops(): Integer                 |
+| + parseFrom(String mallRecord): Mall  |
+| + parseTo(): String                   |
+| + parseTo(Mall mallInstance): String  |
++---------------------------------------+
+                       |
+                       |
+                       |
+                       |
++---------------------------------------+
+|            FileManager                |
++---------------------------------------+
+| - static final MALLS: List<Mall>       |
++---------------------------------------+
+| + static loadMalls(): List<Mall>       |
+| + static saveMalls(List<Mall> malls,   |
+|         String fileName): void         |
++---------------------------------------+
+                       |
+                       |
+                       |
+                       |
++---------------------------------------+
+|             MallsDemo                  |
++---------------------------------------+
+| + main(String[] args): void            |
+| - sort(List<Mall> malls,               |
+|         String fieldName, String order): void |
+| - filterByCountry(List<Mall> malls,    |
+|         String countryName): List<Mall> |
+| - filterByAreaSqFt(List<Mall> malls,   |
+|         int lower, int upper): List<Mall> |
++---------------------------------------+
