@@ -3,7 +3,6 @@ Youtube link: https://youtu.be/5AF1iDS6gss
 <!-- above -->
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6xlTtn4z)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11454834&assignment_repo_type=AssignmentRepo)
-[![Open YouTube](https://github.com/WebDevSimplified/YouTube-Design-Clone/blob/master/logo.png)](https://youtu.be/5AF1iDS6gss)
 <h1> Assignment 2 </h1>
 <h3> Creating a simple JAVA application to implement File I/O and Filtration </h3>
 
